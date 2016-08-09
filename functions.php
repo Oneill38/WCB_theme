@@ -44,3 +44,20 @@ function wpbootstrap_scripts_with_jquery()
 }
 add_action( 'wp_enqueue_scripts', 'wpbootstrap_scripts_with_jquery' );
 
+function arphabet_widgets_init() {
+
+    register_sidebar( array(
+        'name'          => 'Countdown Area',
+        'id'            => 'countdown_area',
+        'before_widget' => '<div>',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h2 class="rounded">',
+        'after_title'   => '</h2>',
+    ) );
+
+}
+add_action( 'widgets_init', 'arphabet_widgets_init' );
+
+
+    
+

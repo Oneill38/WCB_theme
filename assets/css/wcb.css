@@ -7,6 +7,12 @@
 
 */
 
+@font-face {
+  font-family: Reckoner;  
+  src: url(../../Reckoner.ttf);  
+  font-weight: normal;  
+}
+
 /* Links */
 a,
 a:focus,
@@ -24,6 +30,12 @@ a:hover {
   border: 1px solid #fff;
 }
 
+.ticket_link{
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
 
 /*
  * Base structure
@@ -32,7 +44,7 @@ a:hover {
 html,
 body {
 /*css for full size background image*/
-  background: url(http://p1.pichost.me/i/66/1910819.jpg) no-repeat center center fixed; 
+  background: url("../../boxing.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -73,9 +85,20 @@ body {
 /*
  * Header
  */
+ .masthead{
+  max-height: 50px;
+ }
+
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.masthead-brand img{
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 8%;
 }
 
 .masthead-nav > li {
@@ -123,12 +146,19 @@ body {
 .cover {
   padding: 0 20px;
 }
-.cover .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold;
+
+.cover h1{
+  font-family: 'Reckoner', serif;
+  font-size: 80px;
 }
 
+.bottom-heading{
+  color: #dd3333;
+}
 
+.cover hr{
+  width: 75%;
+}
 /*
  * Footer
  */
@@ -162,13 +192,5 @@ body {
   .mastfoot,
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
-  }
-}
-
-@media (min-width: 992px) {
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 700px;
   }
 }

@@ -13,7 +13,7 @@
 	<!--[if lt IE 9]>
 	  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-
+<link href='https://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>	
 	<?php wp_enqueue_script("jquery"); ?>
     <?php wp_enqueue_script("bootstrap"); ?>
 	<?php wp_head(); ?>

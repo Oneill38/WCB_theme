@@ -1,10 +1,11 @@
 <?php get_header(); ?>
-<div class="site-wrapper">
+
+<div class="site-wrapper row">
   <div class="site-wrapper-inner">
     <div class="cover-container">
       <div class="masthead clearfix">
         <div class="inner">
-          <h3 class="masthead-brand">Cover</h3>
+          <h3 class="masthead-brand"></h3>
 
           <ul class="nav masthead-nav">
             <li class="active">
@@ -24,38 +25,26 @@
       </div>
 
       <div class="inner cover">
-        <h1 class="cover-heading">Full screen background cover page.</h1>
+        <div class="col-sm-6">
 
-        <p class="lead">Cover is a one-page template for building simple and
-        beautiful home pages. Download, edit the text, and add your own
-        fullscreen background color and photo to make it your own.
-            
-        <small>    <br> <a href="http://bootsnipp.com/iframe/g6GWQ" target=
-              "_blank">Best viewed on full screen</a></small>
-            
-        </p>
-
-        <p class="lead"><a class="btn btn-lg btn-info" href="#">Learn
-        more</a></p>
+        </div>
+        <div class="col-sm-6">
+          <h1 class="cover-heading">Village Lions</h1>
+          <hr>
+          <h1  class="cover-heading bottom-heading">White Collar Boxing</h1>
+        </div>
       </div>
 
       <div class="mastfoot">
         <div class="inner">
           <!-- Validation -->
+          <?php if ( is_active_sidebar( 'countdown_area' ) ) : ?>
+            <div>
+              <?php dynamic_sidebar( 'countdown_area' ); ?>
+            </div>
+          <?php endif; ?>
 
-          <p><a href=
-          "http://validator.w3.org/check?uri=http%3A%2F%2Fbootsnipp.com%2Fiframe%2Fg6GWQ"
-          target="_blank"><small>HTML</small><sup>5</sup></a></p>
-          
-          
-          <p><a href=
-          "https://github.com/twbs/bootlint"
-          target="_blank"><small>Checked with Bootlint</small></a></p>          
-      
-          
-
-          <p>© 2014 Your Name ~ <a href=
-          "http://getbootstrap.com/">Bootstrap</a></p>
+          <p class="lead"><a class="ticket_link" href="#">Buy Tickets</a></p>
         </div>
       </div>
     </div>
