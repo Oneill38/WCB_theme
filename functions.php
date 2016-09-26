@@ -11,7 +11,7 @@ if ( ! function_exists( 'oneill_setup' ) ):
  * @since Shape 1.0
  */
 function boxing_setup() {
- 
+    require_once('assets/wp_bootstrap_navwalker.php');
     /**
      * Add default posts and comments RSS feed links to head
      */
@@ -56,7 +56,24 @@ function arphabet_widgets_init() {
     ) );
 
 }
+
 add_action( 'widgets_init', 'arphabet_widgets_init' );
+
+function twitter_widgets_init() {
+
+    register_sidebar( array(
+        'name'          => 'Twitter Area',
+        'id'            => 'twitter_area',
+        'before_widget' => '<div>',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h2>',
+        'after_title'   => '</h2>',
+    ) );
+
+}
+
+add_action( 'widgets_init', 'twitter_widgets_init' );
+
 
 
     

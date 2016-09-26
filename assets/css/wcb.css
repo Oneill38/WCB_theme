@@ -41,93 +41,31 @@ a:hover {
  * Base structure
  */
 
+/*css for full size background image*/
 html,
 body {
-/*css for full size background image*/
-  background: url("../../boxing.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  
+
   height: 100%;
-  background-color: #060;
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.home-container{
+  background-color: #000000;
   color: #fff;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
- 
-}
-
-/* Extra markup and styles for table-esque vertical and horizontal centering */
-.site-wrapper {
-  display: table;
-  width: 100%;
-  height: 100%; /* For at least Firefox */
   min-height: 100%;
-  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
 }
-.site-wrapper-inner {
-  display: table-cell;
-  vertical-align: top;
-}
-.cover-container {
-  margin-right: auto;
-  margin-left: auto;
-}
-
-/* Padding for spacing */
-.inner {
-  padding: 30px;
-}
-
 
 /*
  * Header
  */
- .masthead{
-  max-height: 50px;
- }
-
-.masthead-brand {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.masthead-brand img{
-  position: fixed;
-  left: 0;
-  top: 0;
-  height: 8%;
-}
-
-.masthead-nav > li {
-  display: inline-block;
-}
-.masthead-nav > li + li {
-  margin-left: 20px;
-}
-.masthead-nav > li > a {
-  padding-right: 0;
-  padding-left: 0;
-  font-size: 16px;
-  font-weight: bold;
-  color: #fff; /* IE8 proofing */
-  color: rgba(255,255,255,.95);
-  border-bottom: 2px solid transparent;
-}
-.masthead-nav > li > a:hover,
-.masthead-nav > li > a:focus {
-  background-color: transparent;
-  border-bottom-color: #a9a9a9;
-  border-bottom-color: rgba(255,255,255,.25);
-}
-.masthead-nav > .active > a,
-.masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
-}
+/**/
 
 @media (min-width: 768px) {
   .masthead-brand {
@@ -142,55 +80,42 @@ body {
 /*
  * Cover
  */
-
-.cover {
-  padding: 0 20px;
-}
-
-.cover h1{
+.home-container h1{
   font-family: 'Reckoner', serif;
   font-size: 80px;
+
 }
 
 .bottom-heading{
   color: #dd3333;
 }
 
-.cover hr{
+.home-container hr{
   width: 75%;
 }
-/*
- * Footer
- */
 
-.mastfoot {
-  color: #999; /* IE8 proofing */
-  color: rgba(255,255,255,.5);
+/* Page Content */
+
+div.page-content{
+  background-color: #ffffff;
+  color: #555;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.page-title{
+  text-align: center;
+}
 
-/*
- * Affix and center
- */
+/* Twitter Siebar */
 
-@media (min-width: 768px) {
-  /* Pull out the header and footer */
-  .masthead {
-    position: fixed;
-    top: 0;
-  }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
-  /* Start the vertical centering */
-  .site-wrapper-inner {
-    vertical-align: middle;
-  }
-  /* Handle the widths */
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
-  }
+.twitter-sidebar{
+  margin-left: 15px;
+}
+
+/* Footer */
+
+.footer-div{
+  background-color: #141B22;
+  color: #555;
+  margin-top: 20px;
 }
