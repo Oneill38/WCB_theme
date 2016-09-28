@@ -1,3 +1,4 @@
+<html>
 <head>
 	<meta charset="utf-8">
 	<title>Village Lions White Collar Boxing</title>
@@ -19,9 +20,10 @@
 	<?php wp_head(); ?>
 </head>
 
-<div class="container-fluid grid main-container">
+<body>
+<div class="container-fluid">
     
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top row" role="navigation">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">

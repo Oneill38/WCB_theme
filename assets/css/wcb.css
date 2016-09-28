@@ -6,11 +6,24 @@
 * Globals
 
 */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 110px;
+}
 
 @font-face {
   font-family: Reckoner;  
   src: url(../../Reckoner.ttf);  
   font-weight: normal;  
+}
+
+.container-fluid{
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 /* Links */
@@ -40,42 +53,12 @@ a:hover {
 /*
  * Base structure
  */
-
-/*css for full size background image*/
-html,
-body {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  height: 100%;
-  width: 100%;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
 .home-container{
   background-color: #000000;
   color: #fff;
   text-align: center;
   min-height: 100%;
 }
-
-/*
- * Header
- */
-/**/
-
-@media (min-width: 768px) {
-  .masthead-brand {
-    float: left;
-  }
-  .masthead-nav {
-    float: right;
-  }
-}
-
 
 /*
  * Cover
@@ -100,10 +83,19 @@ div.page-content{
   background-color: #ffffff;
   color: #555;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 0px 25px;
 }
 
-.page-title{
+.page-title, .page-social{
   text-align: center;
+}
+
+.page-container{
+  margin-top: 40px;
+}
+
+.fa-stack-2x{
+  color: #dd3333;
 }
 
 /* Twitter Siebar */
@@ -114,8 +106,18 @@ div.page-content{
 
 /* Footer */
 
-.footer-div{
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   background-color: #141B22;
   color: #555;
   margin-top: 20px;
+  overflow: hidden;
+  height: 100px;
+}
+
+.lions-logo{
+  max-height: 100px;
+  float: left;
 }

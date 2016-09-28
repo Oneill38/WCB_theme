@@ -1,9 +1,17 @@
-</div><!-- #main -->
+	</div><!-- #main -->
+		
+		<footer class="footer">
+			
+			<div class="container">
+		        <div class="col-sm-4">
+					<img class="lions-logo" src="<?php echo get_template_directory_uri(); ?>/lions.png"/>
+		        </div>
 
-<div class="container-fluid footer-div">
-	
-	<footer>
-		<p>Here is some example text</p>
-	</footer>
+		        <div class="col-sm-8">
 
-</div>
+		        </div>
+		    </div>
+
+		</footer>
+	</body>
+</html>
