@@ -13,6 +13,11 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 100px;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.container-fluid{
+  padding-bottom: 20px;
 }
 
 @font-face {
@@ -31,6 +36,10 @@ a,
 a:focus,
 a:hover {
   color: #fff;
+}
+
+h1,h2,h3,h4{
+  font-family: 'Quattrocento', serif;
 }
 
 /* Custom default button */
