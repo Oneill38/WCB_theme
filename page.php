@@ -4,7 +4,7 @@
   
   <div class="col-sm-12">
     
-    <div class="col-sm-9 page-content">
+    <div class="col-sm-8 page-content">
       <h2 class="page-title"><?php the_title(); ?></h2>
       <div class="page-social">
         
@@ -38,6 +38,8 @@
       <?php endwhile; endif; ?>
 
       </div>
+
+      <div class="col-sm-1"></div>
       
       <div class="col-sm-3">
 

@@ -126,7 +126,9 @@ div.page-content{
 }
 
 .contact-footer{
-  padding-top: 10px;
+  padding-top: 2em;
+  text-align: center;
+
 }
 
 .contact-footer ul{
@@ -135,6 +137,7 @@ div.page-content{
 
 .social-footer{
   text-align: center;
+  padding-top: 2em;
 }
 
 /* Single Boxer Page */
@@ -176,4 +179,10 @@ div.page-content{
 
 .give-progress-bar{
   display: none;
+}
+
+button.give-btn{
+  background-color: #dd3333;
+  border-radius: 5px;
+  color: white;
 }
