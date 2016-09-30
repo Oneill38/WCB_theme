@@ -119,7 +119,22 @@ div.page-content{
 
 .lions-logo{
   max-height: 100px;
-  float: left;
+}
+
+.logo-footer{
+  text-align: center;
+}
+
+.contact-footer{
+  padding-top: 10px;
+}
+
+.contact-footer ul{
+  list-style-type: none;
+}
+
+.social-footer{
+  text-align: center;
 }
 
 /* Single Boxer Page */
