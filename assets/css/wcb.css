@@ -12,7 +12,7 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 110px;
+  margin-bottom: 100px;
 }
 
 @font-face {
@@ -75,6 +75,10 @@ a:hover {
 
 .home-container hr{
   width: 75%;
+}
+
+.home-text-container{
+  margin-top: 6em;
 }
 
 /* Page Content */
@@ -185,4 +189,40 @@ button.give-btn{
   background-color: #dd3333;
   border-radius: 5px;
   color: white;
+}
+
+/* Boxer Archive */
+
+.archive-boxer-container{
+  text-align: center;
+  overflow: hidden;
+}
+
+.boxer-archive-link{
+  color: inherit;
+}
+
+.boxer-archive-link:hover{
+  color: inherit;
+}
+
+/* Countdown on Homepage */
+
+.ClassyCountdown-days > div > canvas, .ClassyCountdown-hours > div > canvas, .ClassyCountdown-minutes > div > canvas, .ClassyCountdown-seconds > div > canvas{
+  max-height: 200px;
+}
+
+span.ClassyCountdown-value{
+  margin-top: -1.7em !important;
+}
+
+div.ClassyCountdown-wrapper{
+  padding-top: 5em;
+}
+
+/* Navigation Bar */
+
+.navbar-default{
+  background-color: #141B22;
+  border-color: #141B22;
 }

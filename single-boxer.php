@@ -18,7 +18,7 @@
 			<hr>
 
 			<div class="col-sm-12 headshot-container">
-		    	<img class="single-headshot" src="<?php echo $pic ?>">
+		    	<img class="single-headshot img-circle" src="<?php echo $pic ?>">
 			</div>
 
 			<div class="single-stats">

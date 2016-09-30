@@ -3,7 +3,7 @@
 <div class="container-fluid home-container">
   
   <div class="col-sm-12">
-        <div>
+        <div class="home-text-container">
           <h1 class="cover-heading">Village Lions</h1>
           <hr>
           <h1  class="cover-heading bottom-heading">White Collar Boxing</h1>
@@ -19,9 +19,10 @@
         </div>
       <?php endif; ?>
 
-      <p class="lead"><a class="ticket_link" href="#">Buy Tickets</a></p>
-    </div>
+<!--       <p class="lead"><a class="ticket_link" href="#">Buy Tickets</a></p>
+ -->    </div>
   </div>
 
 </div>
 
+<?php get_footer("home") ?>
