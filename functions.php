@@ -38,8 +38,13 @@ add_action( 'after_setup_theme', 'boxing_setup' );
 function wpbootstrap_scripts_with_jquery()
 {
 	wp_register_script( 'bootstrap-js', get_template_directory_uri() . '/bootstrap/js/bootstrap.js', array( 'jquery' ) );
-	// For either a plugin or a theme, you can then enqueue the script:
+	wp_register_script( 'jQuery-Knob', get_template_directory_uri() . '/assets/js/jQuery-Knob/js/jquery.knob.js', array( 'jquery' ) );
+    wp_register_script( 'wcb', get_template_directory_uri() . '/assets/js/wcb.js', array( 'jquery' ) );
+
+    // For either a plugin or a theme, you can then enqueue the script:
 	wp_enqueue_script( 'bootstrap-js' );
+    wp_enqueue_script( 'jQuery-Knob' );
+    wp_enqueue_script( 'wcb' );
     wp_enqueue_style(get_template_directory_uri() . '/assets/css/wcb.css');
 }
 add_action( 'wp_enqueue_scripts', 'wpbootstrap_scripts_with_jquery' );
@@ -140,23 +145,13 @@ add_filter( 'cmb_meta_boxes', 'cmb_sample_metaboxes' );
                     'type' => 'text'
                 ),
                 array(
-                    'name' => 'Nickname',
-                    'id' => $prefix . 'nickname',
-                    'type' => 'text'
-                ),
-                array(
                     'name' => 'Weight',
                     'id' => $prefix . 'weight',
                     'type' => 'text'
                 ),
                 array(
-                    'name' => 'Hometown',
-                    'id' => $prefix . 'hometown',
-                    'type' => 'text'
-                ),
-                array(
-                    'name' => 'Occupation',
-                    'id' => $prefix . 'occupation',
+                    'name' => 'Team',
+                    'id' => $prefix . 'team',
                     'type' => 'text'
                 ),
                 array(

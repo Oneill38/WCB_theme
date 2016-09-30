@@ -121,3 +121,44 @@ div.page-content{
   max-height: 100px;
   float: left;
 }
+
+/* Single Boxer Page */
+
+.headshot-container{
+  text-align: center;
+}
+
+.single-headshot{
+  border-radius: 50%;
+  max-height: 250px;
+}
+
+.single-stats{
+  text-align: center;
+}
+
+.knob-container{
+  text-align: center;
+}
+
+.donors-title{
+  text-align: center;
+}
+
+/* Give Form */
+
+.give-form-title{
+  display: none;
+}
+
+.give-custom-amount-text{
+  display: none;
+}
+
+.give-goal-progress .raised{
+  text-align: center;
+}
+
+.give-progress-bar{
+  display: none;
+}
