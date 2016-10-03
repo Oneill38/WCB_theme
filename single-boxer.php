@@ -55,9 +55,9 @@
 
 	                <hr>
 
-	            	<div class="donors-container">
+<!-- 	            	<div class="donors-container">
 	            		<h3 class="donors-title">Top Donors</h3>
-	            	</div>
+	            	</div> -->
 
 	            </div>
 	      	<?php endwhile; endif; ?>
