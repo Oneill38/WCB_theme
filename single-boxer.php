@@ -46,7 +46,7 @@
 	            <div>
 	            	
 	            	<div class="knob-container">
-				    	<input type="text" value="75" class="dial" readOnly="true">
+				    	<input type="text" value="" class="dial" readOnly="true">
 	            	</div>
 
 	            	<hr>
