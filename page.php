@@ -41,7 +41,7 @@
 
       <div class="col-sm-1"></div>
       
-      <div class="col-sm-3">
+      <div class="col-sm-3 twitter-div">
 
         <?php if ( is_active_sidebar( 'twitter_area' ) ) : ?>
             <?php dynamic_sidebar( 'twitter_area' ); ?>

@@ -14,7 +14,11 @@
              <div class="archive-boxer-container col-sm-4">
              	<?php
              		$team = get_post_meta( $post->ID, '_cmb_team', true );
-					$pic = get_post_meta( $post->ID, '_cmb_headshot', true ); 
+                 if (get_post_meta( $post->ID, '_cmb_headshot', true )){
+                    $pic = get_post_meta( $post->ID, '_cmb_headshot', true );
+                 }else{
+                    $pic = get_template_directory_uri() . "/person-placeholder.jpg";
+                 }
 				?>
 			
 				<div class="col-sm-12">

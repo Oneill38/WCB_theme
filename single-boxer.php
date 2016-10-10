@@ -3,8 +3,12 @@
 	$height = get_post_meta( $post->ID, '_cmb_height', true );
 	$weight = get_post_meta( $post->ID, '_cmb_weight', true );
 	$team = get_post_meta( $post->ID, '_cmb_team', true );
-	$pic = get_post_meta( $post->ID, '_cmb_headshot', true );
-	$bio = get_post_meta( $post->ID, '_cmb_bio', true );
+     if (get_post_meta( $post->ID, '_cmb_headshot', true )){
+        $pic = get_post_meta( $post->ID, '_cmb_headshot', true );
+     }else{
+        $pic = get_template_directory_uri() . "/person-placeholder.jpg";
+     }
+   	$bio = get_post_meta( $post->ID, '_cmb_bio', true );
 	$position = get_post_meta( $post->ID, '_cmb_position', true );
 ?>
 
