@@ -41,7 +41,7 @@
                 'theme_location'    => 'primary',
                 'depth'             => 2,
                 'container'         => 'div',
-                'container_class'   => 'collapse navbar-collapse',
+                'container_class'   => 'collapse navbar-collapse navbar-right',
         		'container_id'      => 'bs-example-navbar-collapse-1-home',
                 'menu_class'        => 'nav navbar-nav',
                 'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
