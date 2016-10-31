@@ -6,6 +6,8 @@
 
 		        <div class="col-sm-4 logo-footer">
 					<img class="lions-logo" src="<?php echo get_template_directory_uri(); ?>/lions.png"/>
+					<img class="lions-logo" src="<?php echo get_template_directory_uri(); ?>/play_rugby.png"/>
+					<img class="lions-logo" src="<?php echo get_template_directory_uri(); ?>/gleasons.png"/>
 		        </div>
 
 		        <div class="col-sm-4 social-footer">

@@ -35,6 +35,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+          <img class="wcb-logo" src="<?php echo get_template_directory_uri(); ?>/wcb.png"/>
           <a class="navbar-brand" href="<?php echo home_url(); ?>">
                     <?php bloginfo('name'); ?>
                 </a>
