@@ -35,7 +35,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <img class="wcb-logo" src="<?php echo get_template_directory_uri(); ?>/wcb.png"/>
+          <img class="wcb-logo hidden-xs" src="<?php echo get_template_directory_uri(); ?>/wcb.png"/>
           <a class="navbar-brand" href="<?php echo home_url(); ?>">
                     <?php bloginfo('name'); ?>
                 </a>
@@ -47,8 +47,8 @@
                     'theme_location'    => 'primary',
                     'depth'             => 2,
                     'container'         => 'div',
-                    'container_class'   => 'collapse navbar-collapse',
-            'container_id'      => 'bs-example-navbar-collapse-1 navbar-right',
+                    'container_class'   => 'collapse navbar-collapse  navbar-right',
+            'container_id'      => 'bs-example-navbar-collapse-1',
                     'menu_class'        => 'nav navbar-nav',
                     'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
                     'walker'            => new wp_bootstrap_navwalker())

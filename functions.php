@@ -45,6 +45,7 @@ function wpbootstrap_scripts_with_jquery()
 	wp_enqueue_script( 'bootstrap-js' );
     wp_enqueue_script( 'jQuery-Knob' );
     wp_enqueue_script( 'wcb' );
+
     wp_enqueue_style(get_template_directory_uri() . '/assets/css/wcb.css');
 }
 add_action( 'wp_enqueue_scripts', 'wpbootstrap_scripts_with_jquery' );

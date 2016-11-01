@@ -26,7 +26,8 @@
     <hr>
     
     <div class="col-sm-12">
-      
+      <h2 class="about-header">About White Collar Boxing</h2>
+
       <div class="col-md-6">
         
         <div class="video-container">
@@ -35,15 +36,11 @@
 
       </div>
 
-      <div class="col-md-6">
+      <div class="col-md-6 about-text">
           <p>White Collar Boxing is a charity fundraising event organized by the Village Lions RFC. Sixteen athletes will endure three months of intense training to prepare for a USA Boxing sanctioned amateur fight on February 24th, 2017.
           <br><br>Proceeds from this year's event will benefit Play Rugby USA, a leading youth services charity in NYC.</p>
       </div>
       
-    </div>
-
-    <div class-"col-sm-12">
-      <p>PHOTOS GO HERE</p>
     </div>
     
   </div>

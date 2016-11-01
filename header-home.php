@@ -13,7 +13,7 @@
 	<!--[if lt IE 9]>
 	  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-<link href='https://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>	
+    <link href='https://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>	
 	<?php wp_enqueue_script("jquery"); ?>
     <?php wp_enqueue_script("bootstrap"); ?>
 	<?php wp_head(); ?>
@@ -29,7 +29,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <img class="wcb-logo" src="<?php echo get_template_directory_uri(); ?>/wcb.png"/>
+      <img class="wcb-logo hidden-xs" src="<?php echo get_template_directory_uri(); ?>/wcb.png"/>
       <a class="navbar-brand" href="<?php echo home_url(); ?>">
                     <?php bloginfo('name'); ?>
                 </a>

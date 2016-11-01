@@ -93,7 +93,6 @@ h1,h2,h3,h4{
 .video-container{
   position: relative;
   padding-bottom: 56.25%;
-  padding-top: 35px;
   height: 0;
   overflow: hidden;
 }
@@ -104,6 +103,17 @@ h1,h2,h3,h4{
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.about-text{
+  background-color: #141B22;
+  padding: 15px;
+}
+
+.about-header{
+  font-family: 'Reckoner', serif;
+  color: #dd3333;
+  font-size: 4em;
 }
 
 /* Page Content */
