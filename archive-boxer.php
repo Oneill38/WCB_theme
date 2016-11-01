@@ -8,8 +8,17 @@
       <h2 class="page-title">Boxers</h2>
 
       <hr>
+       <?php 
+       $args = array(
+            'post_type' => 'boxer',
+            'orderby' => 'title',
+            'order' => 'ASC',
+            'posts_per_page'=>-1
+        );
+        $wp_query = new WP_Query($args);
 
-       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+       ?>
+       <?php if ( $wp_query->have_posts() ) : while ( $wp_query->have_posts() ) : $wp_query->the_post(); ?>
              <a class="boxer-archive-link" href="<?php echo the_permalink() ?>">
              <div class="archive-boxer-container col-sm-4">
              	<?php
