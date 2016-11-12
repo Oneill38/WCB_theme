@@ -142,6 +142,10 @@ div.page-content{
   color: #dd3333;
 }
 
+.page-content .page-text a{
+  color: #428bca;
+}
+
 /* Twitter Siebar */
 
 .twitter-sidebar{
