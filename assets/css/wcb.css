@@ -276,3 +276,13 @@ img.wcb-logo{
   float: left;
   margin-right: 1em;
 }
+
+/* Fight Archive Page */
+
+.fight-archive-title{
+  text-align: center;
+}
+
+.fight-img{
+  margin-bottom: 1em;
+}
