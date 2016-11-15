@@ -47,22 +47,27 @@
           <div class="archive-boxer-container col-sm-6">
 
 			 
-
-    				<div class="col-sm-12 fight-img">
-    			    	<img class="img-circle img-responsive" src="<?php echo $pic_one ?>">
-    				</div>
+            <a href="<?php echo get_permalink( $boxer_one->ID ) ?>">
+      				<div class="col-sm-12 fight-img">
+      			    	<img class="img-circle img-responsive" src="<?php echo $pic_one ?>">
+      				</div>
+            </a>
             
-            <h4><?php echo $boxer_one->post_title ?></h4>
+            <a href="<?php echo get_permalink( $boxer_one->ID ) ?>">
+              <h4><?php echo $boxer_one->post_title ?></h4>
+            </a>
 
           </div>
 
         <div class="archive-boxer-container col-sm-6">
 
+          <a href="<?php echo get_permalink( $boxer_two->ID ) ?>">
             <div class="col-sm-12 fight-img">
                 <img class="img-circle img-responsive" src="<?php echo $pic_two ?>">
             </div>
+          </a>
             
-            <h4><?php echo $boxer_two->post_title ?></h4>
+            <a href="<?php echo get_permalink( $boxer_two->ID ) ?>"><h4><?php echo $boxer_two->post_title ?></h4></a>
 
           </div>
 
