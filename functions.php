@@ -187,8 +187,80 @@ function cmb_initialize_cmb_meta_boxes() {
 
   if ( ! class_exists( 'cmb_Meta_Box' ) )
     require_once 'Custom-Metaboxes-and-Fields-for-WordPress-master/init.php';
-
 }
 
+// Add Fight Custom Post Type
+
+add_action( 'init', 'register_cpt_fight' );
+function register_cpt_fight() {
+    $labels = array(
+        'name' => _x( 'fights', 'fight' ),
+        'singular_name' => _x( 'fight', 'fight' ),
+        'all_items'           => __( 'All Fights', 'fight' ),
+        'add_new' => _x( 'Add New', 'fight' ),
+        'add_new_item' => _x( 'Add New Fight', 'fight' ),
+        'edit_item' => _x( 'Edit fight', 'fight' ),
+        'new_item' => _x( 'New fight', 'fight' ),
+        'view_item' => _x( 'View fight', 'fight' ),
+        'search_items' => _x( 'Search fights', 'fight' ),
+        'not_found' => _x( 'No fights found', 'fight' ),
+        'not_found_in_trash' => _x( 'No fights found in Trash', 'fight' ),
+        'parent_item_colon' => _x( 'Parent fights:', 'fight' ),
+        'menu_name' => _x( 'Fights', 'fight' ),
+    );
     
+    $args = array(
+        'labels' => $labels,
+        'hierarchical' => true,
+        'supports'            => array( 'title', 'editor', 'excerpt', 'thumbnail', 'revisions', 'custom-fields', 'page-attributes' ),
+        'taxonomies' => array( 'category', 'post_tag', 'page-category'),
+        'public' => true,
+        'show_ui' => true,
+        'show_in_menu' => true,
+        'show_in_nav_menus' => true,
+        'show_in_admin_bar'   => true,
+        'menu_position'       => 5,
+        'public'              => true,
+        'publicly_queryable' => true,
+        'exclude_from_search' => false,
+        'has_archive' => true,
+        'query_var' => true,
+        'can_export' => true,
+        'rewrite' => true,
+        'capability_type' => 'page'
+    );
+    register_post_type( 'fight', $args );
+};
+
+add_filter( 'cmb_meta_boxes', 'cmb_fight_metaboxes' );
+    
+    function cmb_fight_metaboxes( array $meta_boxes ) {
+      // Start with an underscore to hide fields from custom fields list
+      $prefix = '_cmb_';
+      /**
+       * Sample metabox to demonstrate each field type included
+       */
+      $meta_boxes['fight_metabox'] = array(
+        'id'         => 'fight_metabox',
+        'title'      => __( 'Fight Info', 'cmb' ),
+        'pages'      => array( 'fight' ), // Post type
+        'context'    => 'normal',
+        'priority'   => 'high',
+        'show_names' => true, // Show field names on the left
+        // 'cmb_styles' => true, // Enqueue the CMB stylesheet on the frontend
+        'fields'     => array(
+                array(
+                    'name' => 'Boxer One Name',
+                    'id' => $prefix . 'boxer_one',
+                    'type' => 'text'
+                ),
+                array(
+                    'name' => 'Boxer Two Name',
+                    'id' => $prefix . 'boxer_two',
+                    'type' => 'text'
+                ),
+            ),
+        );
+        return $meta_boxes;
+    }    
 
