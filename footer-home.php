@@ -4,9 +4,9 @@
 			<div class="col-sm-12">
 
 		        <div class="col-sm-4 logo-footer">
-					<img class="lions-logo" src="<?php echo get_template_directory_uri(); ?>/lions.png"/>
-					<img class="lions-logo" src="<?php echo get_template_directory_uri(); ?>/play_rugby.png"/>
-					<img class="lions-logo" src="<?php echo get_template_directory_uri(); ?>/gleasons.png"/>
+					<a href="//www.villagelions.org/" target="blank"><img class="lions-logo" src="<?php echo get_template_directory_uri(); ?>/lions.png"/></a>
+					<a href="//www.playrugbyusa.com/" target="blank"><img class="lions-logo" src="<?php echo get_template_directory_uri(); ?>/play_rugby.png"/></a>
+					<a href="//www.gleasonsgym.net/index.html" target="blank"><img class="lions-logo" src="<?php echo get_template_directory_uri(); ?>/gleasons.png"/></a>
 		        </div>
 
 		        <div class="col-sm-4 social-footer">
