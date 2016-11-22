@@ -12,7 +12,7 @@
 
 		        <div class="col-sm-4 social-footer">
 					
-					<a href="https://twitter.com/villagelions">
+					<a href="//twitter.com/wcb_vlrfc" >
 				        <span class="fa-stack fa-lg">
 				          <i class="fa fa-circle fa-stack-2x"></i>
 				          <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -23,6 +23,13 @@
 			          <span class="fa-stack fa-lg">
 			            <i class="fa fa-circle fa-stack-2x"></i>
 			            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+			          </span>
+			        </a>
+
+			        <a href="//www.instagram.com/wcb_vlrfc/?hl=en">
+			          <span class="fa-stack fa-lg">
+			            <i class="fa fa-circle fa-stack-2x"></i>
+			            <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
 			          </span>
 			        </a>
 

@@ -25,6 +25,13 @@
 			          </span>
 			        </a>
 
+			        <a href="//www.instagram.com/wcb_vlrfc/?hl=en">
+			          <span class="fa-stack fa-lg">
+			            <i class="fa fa-circle fa-stack-2x"></i>
+			            <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+			          </span>
+			        </a>
+
 			        <a href="mailto:wcb@villagelions.org">
 			          <span class="fa-stack fa-lg">
 			            <i class="fa fa-circle fa-stack-2x"></i>
