@@ -116,10 +116,6 @@ h1,h2,h3,h4{
   font-size: 4em;
 }
 
-.std{
-  max-height: 400px;
-}
-
 /* Page Content */
 
 div.page-content{
@@ -265,7 +261,11 @@ span.ClassyCountdown-value{
 }
 
 div.ClassyCountdown-wrapper{
-  padding-top: 5em;
+  padding-top: 2em;
+}
+
+.row.countdown_area{
+  padding-top: 4em;
 }
 
 /* Navigation Bar */

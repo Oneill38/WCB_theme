@@ -12,10 +12,15 @@
 
   <div class="col-sm-12">
     <div class="inner">
-      <!-- Validation -->
+      
+
       <?php if ( is_active_sidebar( 'countdown_area' ) ) : ?>
         <div class="row countdown_area">
+
+          <h2>Friday, February 24th at The Highline Ballroom in NYC</h2>
+
           <?php dynamic_sidebar( 'countdown_area' ); ?>
+          
         </div>
       <?php endif; ?>
 
