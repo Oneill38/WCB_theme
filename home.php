@@ -37,8 +37,9 @@
       </div>
 
       <div class="col-md-6 about-text">
-          <p>White Collar Boxing is a charity fundraising event organized by the Village Lions RFC. Sixteen athletes will endure three months of intense training to prepare for a USA Boxing sanctioned amateur fight on February 24th, 2017.
-          <br><br>Proceeds from this year's event will benefit Play Rugby USA, a leading youth services charity in NYC.</p>
+          <p>The Inaugural Village Lions White Collar Boxing Event held on June 6th, 2014, at the B.B. King Blues Club in Times Square, New York, NY. Organized by club member Hamish Keith, formerly a senior producer at inVNT, a global brand communications agency, who saw the potential that this kind of event had to elevate the Village Lions in the growing Northeastern rugby landscape. Since 2014, White Collar Boxing has become a stronghold in the NYC rugby community and continues to be a premier, sold-out event year after year.
+          <br><br>
+          White Collar Boxing has been featured in publications including <a href="//www.therugbybreakdown.com/single-post/2016/1/22/Going-Premium-One-Event-All-the-Money">The Rugby Breakdown</a> and <a href="//manslife.com/21010/gleasons-gym-village-lions-white-collar-boxing/">Man's Life Magazine</a>.</p>
       </div>
       
     </div>

@@ -7,8 +7,8 @@ jQuery(document).ready(function(){
 
 	// Calculate percentage, set knob
 	jQuery(function() {
-        var progress = parseInt(jQuery(".income").text());
-        var goal = parseInt(jQuery(".goal").text());
+        var progress = parseFloat(jQuery(".income").text().replace('$', '').replace(',', ''), 10);
+        var goal = parseFloat(jQuery(".goal-text").text().replace('$', '').replace(',', ''), 10);
         var total = (progress/goal) * 100;
         jQuery(".dial").val(total).trigger('change');
     });
