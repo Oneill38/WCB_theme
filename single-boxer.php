@@ -9,7 +9,6 @@
         $pic = get_template_directory_uri() . "/person-placeholder.jpg";
      }
    	$bio = get_post_meta( $post->ID, '_cmb_bio', true );
-	$position = get_post_meta( $post->ID, '_cmb_position', true );
 ?>
 
 <div class="row page-container">
@@ -29,7 +28,6 @@
 			   	<h4 class="">Height: <?php echo $height; ?></h3>
 			   	<h4 class="">Weight: <?php echo $weight; ?></h3>
 			   	<h4 class="">Team: <?php echo $team; ?></h3>
-			    <h4 class="">Position: <?php echo $position; ?></h3>
 			</div>
 
 
