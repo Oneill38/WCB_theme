@@ -78,6 +78,11 @@ h1,h2,h3,h4{
 
 }
 
+.teaser-date{
+ font-family: 'Reckoner', serif;
+ font-size: 3em;
+}
+
 .bottom-heading{
   color: #dd3333;
 }
