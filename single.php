@@ -12,14 +12,14 @@
 			<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 				        <?php  the_content(); ?>
 			<? endwhile; ?>
-			
+
 		</div>
 
 		<div class="col-sm-1">
 			<!-- Empty div just to keep two divs apart -->
 		</div>
 
-	    <div class="col-sm-4">
+	    <div class="col-sm-4 twitter-div">
 		      
 	            	
 	    	<div>
