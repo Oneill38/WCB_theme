@@ -299,3 +299,9 @@ img.wcb-logo{
 .page-content div.archive-boxer-container a{
   color: #555;
 }
+
+/* Index post page */
+
+.page-content h2.page-title a{
+  color: #555;
+}
