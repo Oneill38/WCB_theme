@@ -17,7 +17,7 @@
       <?php if ( is_active_sidebar( 'countdown_area' ) ) : ?>
         <div class="row countdown_area">
 
-          <h2>Friday, February 24th at The Highline Ballroom in NYC</h2>
+          <h2 class="teaser-date">Friday, February 24th at The Highline Ballroom in NYC</h2>
 
           <?php dynamic_sidebar( 'countdown_area' ); ?>
           
