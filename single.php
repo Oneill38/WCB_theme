@@ -31,11 +31,11 @@
 
 		      </div>
 			<hr>
-			
+			<div class="post-div">			
 			<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 				        <?php  the_content(); ?>
 			<? endwhile; ?>
-
+			</div>
 		</div>
 
 		<div class="col-sm-1">
