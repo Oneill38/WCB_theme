@@ -32,9 +32,9 @@ body {
 }
 
 /* Links */
-a,
-a:focus,
-a:hover {
+.footer a,
+.footer a:focus,
+.footer a:hover {
   color: #fff;
 }
 
@@ -169,6 +169,9 @@ div.page-content{
   color: #428bca;
 }
 
+div.post-div > p > a{
+  color: #428bca !important;
+}
 /* Twitter Siebar */
 
 .twitter-sidebar{
