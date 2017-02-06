@@ -28,6 +28,29 @@
  -->
     </div>
 
+  <hr>
+
+  <div class="col-sm-12 presenter-pics">
+    <h2 class="about-header">Featuring</h2>
+
+    <div class="col-sm-6 presenter-info">
+      <img class="hp-pic img-responsive" src="<?php echo get_template_directory_uri(); ?>/Kieran.jpg"/>
+      <ul>
+        <li>Emcee Kieran Holohan</li>
+      </ul>
+    </div>
+
+
+    <div class="col-sm-6 presenter-info">
+      <a href="https://soundcloud.com/Remeice"><img class="hp-pic img-responsive" src="<?php echo get_template_directory_uri(); ?>/Me_Dj.jpg"/></a>
+      <ul>
+        <li><a href="https://soundcloud.com/Remeice">DJ Remeice Ellis</a></li>
+        <li><a href="https://www.instagram.com/novibynature/">@novibynature</a></li>
+      </ul>
+    </div>
+
+  </div>
+
     <hr>
     
     <div class="col-sm-12">
