@@ -42,7 +42,7 @@
 
 
     <div class="col-sm-6 presenter-info">
-      <a href="https://soundcloud.com/Remeice"><img class="hp-pic img-responsive" src="<?php echo get_template_directory_uri(); ?>/Me_Dj.jpg"/></a>
+      <a href="https://soundcloud.com/Remeice"><img class="hp-pic img-responsive" src="<?php echo get_template_directory_uri(); ?>/Me_DJ.jpg"/></a>
       <ul>
         <li><a href="https://soundcloud.com/Remeice">DJ Remeice Ellis</a></li>
         <li><a href="https://www.instagram.com/novibynature/">@novibynature</a></li>
