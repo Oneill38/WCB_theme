@@ -139,6 +139,11 @@ h1,h2,h3,h4{
 .home-container div.presenter-pics div.presenter-info ul li{
   list-style-type: none !important;
 }
+
+.home-container div.fight-order ul li{
+  list-style-type: none !important;
+  padding-bottom: 1em;
+}
 /* Page Content */
 
 div.page-content{

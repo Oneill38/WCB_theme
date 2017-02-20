@@ -63,6 +63,21 @@ function arphabet_widgets_init() {
 
 }
 
+function donate_widgets_init() {
+
+    register_sidebar( array(
+        'name'          => 'Homepage Donate Area',
+        'id'            => 'donate_area',
+        'before_widget' => '<div>',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h2>',
+        'after_title'   => '</h2>',
+    ) );
+
+}
+
+add_action( 'widgets_init', 'donate_widgets_init' );
+
 add_action( 'widgets_init', 'arphabet_widgets_init' );
 
 function twitter_widgets_init() {

@@ -24,8 +24,20 @@
         </div>
       <?php endif; ?>
 
-<!--       <p class="lead"><a class="ticket_link" href="#">Buy Tickets</a></p>
- -->
+    </div>
+
+  <div class="col-sm-12">
+    <div>
+      
+
+      <?php if ( is_active_sidebar( 'donate_area' ) ) : ?>
+        <div class="row">
+          <h3>Can't make it to fight night? Here's another way to contribute!</h3>
+          <?php dynamic_sidebar( 'donate_area' ); ?>
+          
+        </div>
+      <?php endif; ?>
+
     </div>
 
   <hr>
@@ -49,6 +61,30 @@
       </ul>
     </div>
 
+  </div>
+
+  <hr>
+
+  <div class="col-sm-12 fight-order">
+    <h2 class="about-header">Fight Order</h2>
+
+    <ul>
+      <li>FIGHT 1 Clash of the Lion Kings: Andy "Cupcake" Wagner vs. Greg "Gator" Faherty </li>
+
+      <li>FIGHT 2 T and Asstoria: Christina "Steal Yo" Manzi vs. Erika "Can You Do the CanCan" Kocher</li>
+
+      <li>FIGHT 3 Eighty Years War: Part Deux: Javier "El Matador" Sanz vs. Jurrian "Big Cheese" Zoeteweij</li>
+
+      <li>FIGHT 4 The Rubble Rumble: Sham "Bam Bam" Khan vs. Ela "Pebbles" Van</li>
+
+      <li>FIGHT 5 Blood Sweat and Beers: Sierra "Cutthroat" Cutler vs. Kristen "Ruthless Red" Guernier </li>
+
+      <li>FIGHT 6 Beauty and the Beast: Matthew "Fuzzy" Mullen  vs. "Crazy Joe" Karlin</li>
+
+      <li>FIGHT 7 The Big Green Grapple: Theresa "T-Rex" Cassano vs. Melanie "Predator" Pastuck </li>
+
+      <li>FIGHT 8 The Hookers’ Bind and Brawl: Eric "Genghis Han" vs. Marco "Camacho Macho Man"</li>
+    </ul>
   </div>
 
     <hr>
